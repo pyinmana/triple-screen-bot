@@ -29,9 +29,9 @@ cp .env.example .env
 `.env` ဖိုင်ကို ဖွင့်ပြီး credentials တွေ ဖြည့်ပါ:
 
 ```env
-TELEGRAM_BOT_TOKEN=8704593044:AAH...
-TELEGRAM_CHAT_ID=-1003871757831
-TWELVEDATA_API_KEYS=key1,key2,key3,key4,key5
+TELEGRAM_BOT_TOKEN=Telegram Bot Token ကို ဒီမှာထည့်ပါ
+TELEGRAM_CHAT_ID= Channel ID ကို ဒီမှာထည့်ပါ
+TWELVEDATA_API_KEYS=key1,key2,key3,key4,key5 #Twelvedata က Api key တွေကို ဒီမှာထည့်ပါ
 ```
 
 > ⚠️ `.env` ကို Git မှာ **မတင်ရ**။ `.gitignore` မှာ already block လုပ်ထားပြီ။
